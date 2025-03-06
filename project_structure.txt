@@ -1,0 +1,31 @@
+2503刷题工具/
+├── backend/
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── image_processor.py     # 图片处理相关功能
+│   │   ├── solver.py             # 题目求解核心逻辑
+│   │   └── utils.py              # 工具函数
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py           # 配置管理
+│   └── logger/
+│       ├── __init__.py
+│       └── log_config.py         # 日志配置
+├── frontend/
+│   ├── __init__.py
+│   ├── components/
+│   │   ├── __init__.py
+│   │   └── ui.py                 # UI组件
+│   └── styles/
+│       └── main.css              # CSS样式
+├── prompts/
+│   ├── __init__.py
+│   ├── image_prompts.py          # 图片解析提示词
+│   └── solver_prompts.py         # 题目解答提示词
+├── solutions/                     # 保存生成的解答
+├── .env                          # 环境变量
+├── .env.example                  # 环境变量示例
+├── .gitignore                    # Git忽略文件
+├── main.py                       # 主程序入口
+└── requirements.txt              # 项目依赖
